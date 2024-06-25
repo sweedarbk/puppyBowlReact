@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#root {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Cabin';
+  margin-top: 9rem;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+a {
+  color: black;
+}
